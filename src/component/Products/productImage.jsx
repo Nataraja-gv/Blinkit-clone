@@ -1,14 +1,13 @@
 // import React from 'react';
-import ReactImageMagnify from "react-image-magnify";
 
 const ProductImage = ({ props }) => {
   return (
     <div className="product-main-conatiner">
       <div className="product-Image-container">
         <div className="product-image-single-section"  >
-          {/* <img src={props.Image} alt="" className="product-single-image" /> */}
+          <img src={props.Image} alt="" className="product-single-image" />
           
-          <div style={{width:"350px",height:"513px"}}>
+{/*           <div style={{width:"350px",height:"513px"}}>
           <ReactImageMagnify
             {...{
               smallImage: {
@@ -23,7 +22,7 @@ const ProductImage = ({ props }) => {
               },
             }}
           />
-          </div>
+          </div> */}
            
         </div>
         <div className="product-image-multiple-section">
