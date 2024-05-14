@@ -1,0 +1,99 @@
+.Footer-main-container {
+  margin-top: 50px;
+  background-color: rgb(254, 254, 254);
+  margin: 50px 5% 0px 5%;
+   
+  
+}
+
+.first-row-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Blink-private-content {
+  display: inline-flex;
+  width: 30%;
+}
+
+.Blink-private-content p {
+  display: flex;
+ justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: rgb(162, 162, 162);
+}
+
+.Download-app-content {
+  display: flex;
+  gap:20px;
+  align-items: center;
+}
+
+.Download-app-content li {
+  list-style-type: none;
+  color: rgb(129, 128, 128);
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.footer-store-img {
+  width: 100px;
+  height: 30px;
+}
+
+.social-app-content {
+  display: flex;
+  gap:20px;
+  justify-content: space-around;
+  /* margin-right: 5%; */
+}
+
+.social-app-content li{
+    list-style-type: none;
+    font-size: 25px;
+       
+}
+
+.Second-row-section p{
+    display: flex;
+    justify-content: flex-start;
+     align-items: center;
+     flex-wrap: wrap;
+     font-size: 14px;
+     color: rgb(162, 162, 162);
+     margin-top: 20px;
+     margin-bottom: 30px;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 600px){
+  .first-row-section{
+    display: grid;
+
+  }
+  .Blink-private-content  {
+    display: inline-flex;
+    width: 90%;
+  }
+
+  .Download-app-content{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+  }
+  .social-app-content{
+    gap:5px
+  }
+  .Download-app-content li{
+    font-size: 12px;
+  }
+
+  .footer-store-img {
+    width: 80px;
+    height: 30px;
+  }
+}

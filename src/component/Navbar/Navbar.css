@@ -1,0 +1,330 @@
+.navbar-main-container {
+  height: 90px;
+  background-color: white;
+  border-bottom: 2px solid rgb(238, 238, 238);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-brand-section h1 {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.nav-delivary-minutes h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.nav-delivary-minutes {
+  display: block;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-delivary-minutes p {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+}
+
+.navbar-input-container {
+  width: 600px;
+  height: 50px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(237, 236, 236, 0.965);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.navbar-cart-onClick-section {
+  position: relative;
+  cursor: pointer;
+}
+
+.iscartbag-cart-display {
+  position: absolute;
+  top: -15px;
+  left: -240px;
+  bottom: 0;
+  z-index:2;
+}
+
+.nav-bar-input-section {
+  width: 550px;
+  height: 30px;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.nav-input-icon {
+  margin-left: 10px;
+  color: black;
+}
+
+.navbar-account-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.navbar-profile {
+  position: absolute;
+  top: 59px;
+  right: 0px;
+}
+
+.navbar-account-section {
+  letter-spacing: 1.05px;
+}
+
+.navbar-cart-section {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  padding: 10px 15px;
+  gap: 10px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.navbar-cart-section ul li {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.navbar-cart-icon {
+  font-size: 25px;
+  color: white;
+}
+
+.flip {
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  font-size: 18px;
+}
+.nav-vartical-line{
+  border-left: 2px solid rgb(238, 238, 238);
+  height: 90px;
+}
+
+
+.flip > div > div {
+  color: #8a8888;
+  height: 45px;
+  display: inline-block;
+  z-index: -1;
+}
+
+.flip div:first-child {
+  animation: show 15s ease-in infinite;
+}
+
+@keyframes show {
+  0% {
+    margin-top: 0px; /* Start at the top item */
+  }
+  8% {
+    margin-top: -45px; /* Slide to the next item */
+  }
+  16% {
+    margin-top: -90px; /* Slide to the second item */
+  }
+  24% {
+    margin-top: -135px; /* Slide to the third item */
+  }
+  36% {
+    margin-top: -180px; /* Slide to the fourth item */
+  }
+  48% {
+    margin-top: -225px; /* Slide to the fifth item */
+  }
+  58% {
+    margin-top: -270px; /* Slide to the last item */
+  }
+  66% {
+    margin-top: -225px; /* Reset back to the top */
+  }
+
+  74% {
+    margin-top: -180px; /* Slide to the fifth item */
+  }
+
+  80% {
+    margin-top: -135px; /* Slide to the fourth item */
+  }
+
+  86% {
+    margin-top: -90px; /* Slide to the second item */
+  }
+
+  90% {
+    margin-top: -45px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/* //cart */
+
+.navbar-cart-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-cart-icon:hover {
+  transform: scale(1.2);
+}
+
+.navbar-cart-section {
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar-cart-section:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blinkit-navbar-app-banner-container {
+  display: none;
+}
+
+.nav-blinkit-profile-profile
+{
+  display: none;
+}
+/* mobile phone */
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .navbar-main-container {
+    display: block;
+    height: 100%;
+  }
+
+  .nav-vartical-line{
+    display: none;
+  }
+  .navbar-brand-section {
+    display: none;
+  }
+
+  .navbar-account-section {
+    display: none;
+  }
+
+  .mobileapp-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+  }
+
+  .blinkit-navbar-app-banner-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 134, 22);
+  }
+
+  .blinkit-getapp-section {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    height: 80px;
+    align-items: center;
+    margin: 0% 5%;
+    /* border: 2px solid red; */
+    width: 230px;
+  }
+
+  .blinkit-getapp-section ul h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .blinkit-getapp-section ul li {
+    color: white;
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 0.2px;
+  }
+
+  .nav-blinkit-profile-profile
+  {
+    display: block;
+  }
+
+  .blinkit-use-app-section ul p {
+    color: white;
+    background-color: rgb(54, 53, 53);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 5px;
+    align-self: center;
+  }
+
+  .nav-delivary-minutes {
+    position: static;
+    background-color: white;
+    top: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+  .nav-delivary-section {
+    /* background-color: red; */
+    width: 220px;
+  }
+
+  .nav-blinkit-profile-profile {
+    font-size: 25px;
+  }
+
+  .nav-delivary-minutes h3 {
+    margin-top: 12px;
+  }
+
+  .nav-delivary-minutes p {
+    font-size: 11px;
+  }
+
+  .navbar-input-container {
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px solid rgba(206, 206, 206, 0.965);
+  }
+
+  .flip {
+    font-size: 14px;
+  }
+
+  .nav-input-icon {
+    font-size: 30px;
+  }
+  .navbar-cart-section {
+    display: none;
+  }
+}

@@ -1,0 +1,136 @@
+.productinfo-main-container{
+    /* border: 1px solid red; */
+    padding: 50px;
+}
+.productInfo-breadcrum-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+     
+}
+
+.productInfo-breadcrum,.productInfo-breadcrum-title{
+    font-size:16px;
+    font-weight: 500;
+    color:rgb(67, 67, 67);
+    line-height: 16px;
+    margin-right: 3px;
+}
+.productInfo-breadcrum-title{
+    
+    color:rgb(162, 162, 162);
+    
+}
+
+.productInfo-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    color:rgb(0, 0, 0);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    
+}
+
+.amount-section-productInfo{
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+
+
+.weight-amount-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.product_info-weight{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(79, 79, 79);
+    
+
+
+
+
+}
+ 
+
+.product_info-Namount{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color:black
+}
+.product_info-Oamount{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color:rgb(153, 153, 153);
+     
+}
+
+.product_info-Offer{
+    font-size: 12px;
+    color:white;
+    background-color: rgb(88, 134, 224);
+    padding: 2px 6px;
+    font-weight: 700;
+    border-radius: 4px;
+
+}
+
+.product_info-taxes{
+    font-size: 11px;
+    font-weight: 400;
+    color:rgb(79, 79, 79);
+    line-height: 13px;
+}
+
+
+.productinfo-shop-blinkit{
+    margin-top: 40px;
+}
+
+.productinfo-superfast-assortment-container{
+    margin-top: 30px;
+}
+
+.superfast-section{
+    display: flex;
+    align-items: center;
+
+}
+
+.bestprice-section{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.assortment-section{
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+
+.why-shop-image{
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+.Mobile-product-divide-section{
+    display: none;
+} 
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+    .Mobile-product-divide-section{
+        display: block;
+    } 
+}

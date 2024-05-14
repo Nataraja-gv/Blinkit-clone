@@ -1,0 +1,74 @@
+.DisplaySort-main-section {
+  width: 100%;
+  /* border: 2px solid rgb(136, 255, 0); */
+}
+
+.grocery-sort-section {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(250, 246, 246);
+  background-color: white;
+  height: 60px;
+  align-items: center;
+  height: 50px;
+  /* border: 2px solid rgb(136, 255, 0); */
+}
+
+.sort-title {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.sort-btn-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sort-btn-section p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+  align-self: center;
+}
+
+.sort-relevance-section {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(224, 223, 223);
+  width: 200px;
+  justify-content: space-between;
+  color: rgb(21, 216, 21);
+  padding: 2px 5px;
+  margin-right: 50px;
+  border-radius: 4px;
+}
+
+.sort-relevance-section li {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Display-grocery-conatiner {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .grocery-sort-section {
+    display: none;
+  }
+
+  .Display-grocery-conatiner {
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+}

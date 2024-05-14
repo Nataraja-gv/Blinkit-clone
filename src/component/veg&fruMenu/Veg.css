@@ -1,0 +1,30 @@
+.veg-menu-container {
+  width: 240px;
+  height: 100vh;
+  /* background-color: white; */
+  overflow: scroll;
+}
+
+.Menuitem-vegfre-section {
+  border-left: 5px solid green;
+  /* border-bottom:1px solid rgb(237, 236, 236) ;
+  border-right:1px solid rgb(237, 236, 236) ;
+  border-top:1px solid rgb(237, 236, 236) ; */
+   
+}
+
+.veg-menu-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .veg-menu-container {
+    width: 55px;
+  }
+
+  .Menuitem-vegfre-section {
+    border-left: 0px solid green;
+    border-right: 3px solid green;
+    background-color: rgb(228, 251, 228);
+  }
+}

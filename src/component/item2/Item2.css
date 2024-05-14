@@ -1,0 +1,115 @@
+.item2-main-comatiner {
+    border: 1px solid rgb(195, 192, 192);
+    width: 180px;
+    /* height: 300px; */
+    padding: 0 10px 10px 10px;
+    margin: 0px 20px 20px 0px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .svg2-icon-section{
+    position: absolute;
+    top:-3px;
+    left:22px;
+    align-items: center;
+    font-weight: bolder;
+    
+  }
+   
+  .svg2-icon-section p{
+    position: absolute;
+    top:5px;
+    left:8px;
+    font-size:10px;
+    color:white;
+  
+  }
+  
+  .item2-image-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item2-image-item {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+     
+  }
+  
+  .item2-timer-section {
+    display: inline-flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
+  .item2-timer {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .item2-title-section h2 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -15px;
+    width: 200px;  
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .item2-weight-section p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .item2-price-add-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .item2-newamount {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .item2-oldamount {
+    font-size: 14px;
+     
+    color: gray;
+    text-decoration: line-through;
+    margin-top: -5px;
+  }
+  
+  .add2-amount-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    border: 1px solid green;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: green;
+    font-weight: 700;
+    background-color: rgb(237, 250, 237);
+  }
+  
+  .timer2-image{
+    width: 15px;
+    height: 15px;
+  }
+  

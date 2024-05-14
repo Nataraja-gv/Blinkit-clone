@@ -1,0 +1,81 @@
+.profile-main-container{
+    width: 280px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16)    0px 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid  rgb(202, 200, 200);
+    border-right: 1px solid rgb(202, 200, 200);
+    border-bottom: 1px solid rgb(202, 200, 200);
+  
+
+}
+
+ 
+.profile-myaccount-section h1{
+   font-size: 16px;
+   font-weight: bolder;
+   color: rgb(58, 57, 57);
+
+}
+
+.profile-myaccount-section p{
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+
+}
+
+
+.profile-order-section{
+    margin-top: 15px;
+}
+.profile-order-section li{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 30px;
+    
+
+}
+.profile-wallet{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-qrcode-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap:20px;
+    align-items: start;
+}
+.QR-code-Profile{
+    width: 200px;
+    height: 110px;
+    
+     
+}
+
+.profile-scan-section{
+    
+     width: 100%;
+     line-height:18px;
+     
+}
+.profile-scan-section h1{
+    font-size: 14px;
+    font-weight: 700;
+    color:rgb(102, 102, 102);
+    align-items: start;
+
+}
+
+.profile-scan-section span{
+    color:rgb(25, 145, 255)
+}
+
+
+.profile-scan-section p{
+    font-size: 12px;
+    font-weight: 400;
+    color:rgb(102, 102, 102);
+}

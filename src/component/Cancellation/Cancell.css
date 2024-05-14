@@ -1,0 +1,21 @@
+.cancel-main-container{
+    background-color:white;
+    margin: 15px 15px;
+    border-radius: 15px;
+    padding: 15px;
+     border:1px solid rgb(186, 185, 185);
+      display: block;
+     align-items: center;
+}
+
+.cancel-title p{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(30, 29, 29);
+}
+
+.cancel-Descrition p{
+    font-size: 12px;
+    font-weight: 400;
+    color:rgb(130, 130, 130)
+}

@@ -1,0 +1,48 @@
+.tip-main-container{
+    background-color:white;
+    margin: 15px 15px;
+    border-radius: 15px;
+    padding: 15px;
+     border:1px solid rgb(186, 185, 185);
+      display: block;
+     align-items: center;
+}
+ 
+.tip-main-container h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(40, 40, 40);
+}
+
+.tip-main-container p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(130, 130, 130);
+    margin-top: 10px;
+}
+.tips-emoji{
+    width: 20px;
+    height: 20px;
+}
+.tips-emoji-tipped {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+     
+    
+
+     
+}
+.tips-emoji-tipped-section{
+    display: inline-flex;
+    gap:3px;
+    width: 75px;
+    border: 1px solid rgb(227, 225, 225);
+    justify-content: center;
+     padding: 10px 15px;
+     border-radius: 10px;
+}
+
+ 

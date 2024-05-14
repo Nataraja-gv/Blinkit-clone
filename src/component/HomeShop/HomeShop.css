@@ -1,0 +1,9 @@
+.banner_image{
+width: 100%;
+margin: 20px 0px;     
+}
+
+.mobilecart-sticky-section{
+    position:sticky;
+    bottom: 0px;
+}

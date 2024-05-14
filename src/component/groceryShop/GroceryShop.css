@@ -1,0 +1,69 @@
+.breadcrum-section-shop{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(104, 103, 103, 0.24) 0px 1px 2px;
+    position: sticky;
+    top:90px;
+    background-color: white;
+    z-index: 2;
+    
+}
+.menu-item-displaying-container{
+    margin: 0px 5%;
+}
+
+
+.veg-items-display-container{
+    background-color:white;
+    overflow: scroll;
+    height: 100vh;
+    z-index: 1;
+   
+     
+}
+
+.veg-items-display-container::-webkit-scrollbar{
+    display: none;
+}
+ 
+
+.menu-extra-section{
+    height: 20px;
+    background-color:white;
+    position: sticky;
+    top:141px;
+    border-left:2px solid rgb(250, 246, 246) ;
+    
+
+
+}
+
+
+.Menu-item-main-container{
+   display:grid;
+   grid-template-columns: 230px auto;
+    
+   
+
+}
+
+@media only screen and (min-width: 375px) and (max-width:600px)
+{
+    .Menu-item-main-container{
+        display:grid;
+        grid-template-columns: 60px auto;
+        
+     
+     }
+
+     .menu-extra-section {
+    display: none;
+  }
+  .menu-item-displaying-container {
+    margin: 0px 0%;
+  }
+
+  .Veg-menu-item-section {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+    
+}

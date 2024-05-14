@@ -1,0 +1,73 @@
+.Menuitem-main-container {
+  display: flex;
+  justify-content: start;
+  border-left: 2px solid rgb(246, 250, 246);
+  border-bottom: 2px solid rgb(250, 246, 246);
+  height: 80px;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  cursor: pointer;
+  /* border-left: 5px solid green; */
+}
+
+.Menuitem-main-container :active:after {
+  background-color: rgb(228, 251, 228);
+}
+
+.Menuitem-main-container:hover {
+  background-color: rgb(228, 251, 228);
+}
+
+.Menuitem-Image-conatiner {
+  background-color: rgb(235, 235, 235);
+  margin-left: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.Menuitem-Image {
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.Menuitem-Menuname {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgb(31, 31, 31);
+}
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .Menuitem-main-container {
+    display: block;
+    align-items: center;
+    margin-top: 2px;
+    width: 50px;
+    background-color: white;
+  }
+  .Menuitem-Menuname {
+    font-size: 9px;
+    text-align: center;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+  .Menuitem-Image {
+    width: 25px;
+    height: 20px;
+    display: block;
+    justify-items: center;
+    margin: auto;
+  }
+  .Menuitem-Image-conatiner {
+    background-color: rgb(235, 235, 235);
+    margin-left: 0px;
+    padding-top: 10px 5px;
+    border-radius: 10px;
+    width: 40px;
+    align-items: center;
+    margin: auto;
+    /* margin-top: 5px; */
+  }
+}

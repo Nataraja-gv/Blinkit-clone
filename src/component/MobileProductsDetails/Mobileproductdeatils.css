@@ -1,0 +1,16 @@
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+     .product-details-container{
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .product-more-open{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        gap:5px;
+        color:green;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,25 @@
+.banner-container{
+    display: flex;
+    gap:30px;
+    justify-content: start;
+    width: 90%;
+    margin: 35px 0px 30px;
+    
+}
+.banner{
+    width: 350px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 375px) and (max-width:600px){
+    .banner{
+        width: 34%;
+        height: auto;
+    }
+    
+    .banner-container{
+      margin: 20px 0px 30px;
+      gap:15px
+
+    }
+}
