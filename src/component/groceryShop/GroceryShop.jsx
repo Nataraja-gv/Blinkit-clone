@@ -4,6 +4,8 @@ import "./GroceryShop.css";
 import VegFruMen from "../veg&fruMenu/VegFruMenu";
 import DisplaySortGrocery from "../displaySortGrocery/DisplaySortGrocery";
 import MobileVegMenu from "../veg&fruMenu/MobileVegMenu";
+import MobileBreadcrum from "../breadcrum/MobileBreadcrum"
+
 const GroceryShop = () => {
   return (
     <div>
@@ -11,6 +13,7 @@ const GroceryShop = () => {
         <Breadcrum />
       </div>
       <div className="menu-item-displaying-container">
+      <div className="mobile-breadcrum-display-section"><MobileBreadcrum/></div>
         <div className="Menu-item-main-container">
           <div className="veg-menu-extra-section">
             <div className="menu-extra-section"></div>

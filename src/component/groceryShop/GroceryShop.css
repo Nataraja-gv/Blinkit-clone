@@ -48,6 +48,9 @@
 .mobile-menu-item-section{
   display: none;
 }
+.mobile-breadcrum-display-section{
+    display: none;
+}
 
 @media only screen and (min-width: 375px) and (max-width:600px)
 {
@@ -77,6 +80,10 @@
    }
    .mobile-menu-item-section::-webkit-scrollbar{
     display: none;
+}
+
+.mobile-breadcrum-display-section{
+    display: block;
 }
 
     

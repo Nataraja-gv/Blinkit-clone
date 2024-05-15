@@ -38,7 +38,7 @@ const MItem = (props) => {
             addToCart(props);
           }}
         >
-          Add
+          ADD
            {props.option===0 ? <></>:<span className="mobile-item-option">{props.option} options</span>}
         </button>
 
