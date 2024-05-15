@@ -1,0 +1,60 @@
+.Mobile-veg-menu-container{
+    border-right: 2px solid  rgb(221, 219, 219);
+  
+}
+
+.Mobile-Main-menu-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* margin-top: 20px; */
+    
+}
+
+.mobile-image-Menuitem-Image{
+    width: 35px;
+    height: 35px;
+}
+
+.mobile-Menuitem-Image-menu-conatiner{
+    background-color: rgb(224, 223, 223);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.mobile-Menuitem-Menuname-menuitem-conatiner p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color:rgb(127, 126, 126);
+
+}
+
+.mobile-Menuitem-Image-menu-conatiner .mobile-active-image-bg{
+    background-color: rgb(228, 251, 228);
+
+  }
+  /* .mobile-Menuitem-Menuname-menu  .active-text-color{
+    color:black;
+  }  */
+
+  .mobile-Menuitem-Menuname-menu.active-text-color {
+    color: black;
+    font-weight: 700;
+  }
+
+.mobile-image-Menuitem-Image.mobile-image-menu{
+    transform: scale(1.4);
+    transition: all 0.2s ease;
+}  
+  
+  
+
+  .mobile-active-border{
+    border-right: 5px solid green;
+     border-radius: .5rem;
+     transition: all 0.2s ease-in-out;
+    
+  }

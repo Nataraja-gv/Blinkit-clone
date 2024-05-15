@@ -17,14 +17,29 @@
   display: none;
 }
 
+.mobile-Menuitem-Image-menu-conatiner.active-bg-color{
+  background-color: rgb(220, 252, 220);
+
+}
+
+/* .mobile-Menuitem-Menuname-menuitem-conatiner .active-text-color{
+  color:black;
+} */
+
 @media only screen and (min-width: 375px) and (max-width: 600px) {
   .veg-menu-container {
     width: 55px;
   }
+
+   
 
   .Menuitem-vegfre-section {
     border-left: 0px solid green;
     border-right: 3px solid green;
     background-color: rgb(228, 251, 228);
   }
+
+   
+   
 }
+

@@ -24,7 +24,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
          
     },
@@ -36,7 +38,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -48,7 +52,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"500 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -60,7 +66,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -73,7 +81,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -87,7 +97,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -101,7 +113,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -116,7 +130,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
 
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -129,7 +145,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -142,7 +160,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -155,7 +175,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -168,7 +190,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -182,7 +206,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     },
@@ -196,7 +222,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
 
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -208,7 +236,9 @@ const Britannia_Brown_Bread="https://www.bigbasket.com/media/uploads/p/l/4009224
         Weight:"200 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
 
     }

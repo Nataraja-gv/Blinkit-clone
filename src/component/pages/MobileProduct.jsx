@@ -8,7 +8,7 @@ import { ItemContent } from "../DataFolder/Context/Context";
 import Item from "../item/item";
 import { Link } from "react-router-dom";
 import Mobileproductdetails from "../MobileProductsDetails/Mobileproductdetails.jsx";
-
+import MItem from "../pages/MItem.jsx"
 const MobileProduct = ({ props }) => {
   const { addToCart, cart, GroceryData } = useContext(ItemContent);
 
@@ -141,7 +141,7 @@ const MobileProduct = ({ props }) => {
             {GroceryData.map((item, index) => {
               return (
                 <Link to={`/Product/${item.id}`}>
-                  <Item
+                  <MItem
                     key={index}
                     Image={item.Image}
                     Timer={item.Timer}
@@ -150,6 +150,7 @@ const MobileProduct = ({ props }) => {
                     NewAmount={item.NewAmount}
                     OldAmount={item.OldAmount}
                     offer={item.offer}
+                    option={item.option}
                   />
                 </Link>
               );

@@ -59,6 +59,9 @@
   justify-content: center;
   margin-top: 20px;
 }
+.mobile-Display-grocery-conatiner {
+  display: none;
+}
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
   .grocery-sort-section {
@@ -66,9 +69,14 @@
   }
 
   .Display-grocery-conatiner {
+    display: none;
+  }
+
+  .mobile-Display-grocery-conatiner {
+    display: grid;
     grid-template-columns: auto auto;
     justify-content: space-evenly;
     margin-top: 10px;
+    
   }
-
 }

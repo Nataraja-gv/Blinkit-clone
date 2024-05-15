@@ -16,7 +16,9 @@ const r5="https://tse1.mm.bing.net/th?id=OIP.22-C_xa3wN2bGNHPECQ_BwHaHa&pid=Api&
         Weight:"6 pieces",
         NewAmount:90,
          OldAmount:100,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -28,7 +30,9 @@ const r5="https://tse1.mm.bing.net/th?id=OIP.22-C_xa3wN2bGNHPECQ_BwHaHa&pid=Api&
         Weight:"1 unit (32 pieces)",
         NewAmount:50,
         OldAmount:75,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -41,7 +45,9 @@ const r5="https://tse1.mm.bing.net/th?id=OIP.22-C_xa3wN2bGNHPECQ_BwHaHa&pid=Api&
         Weight:"1 packs (32 pieces)",
         NewAmount:90,
         OldAmount:105,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -54,7 +60,9 @@ const r5="https://tse1.mm.bing.net/th?id=OIP.22-C_xa3wN2bGNHPECQ_BwHaHa&pid=Api&
         Weight:"1 pack",
         NewAmount:220,
         OldAmount:225,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
     
@@ -66,7 +74,9 @@ const r5="https://tse1.mm.bing.net/th?id=OIP.22-C_xa3wN2bGNHPECQ_BwHaHa&pid=Api&
         Weight:" 1 pack (64 + 64 pieces)",
         NewAmount:230,
         OldAmount:235,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 

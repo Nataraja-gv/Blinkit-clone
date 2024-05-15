@@ -1,0 +1,125 @@
+.Mobile-item-container {
+  /* border: 1px solid rgb(195, 192, 192); */
+  width: 140px;
+  padding: 0 5px 5px 5px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.mobile-svg-icon-section {
+  position: absolute;
+  top: -3px;
+  left: 15px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.mobile-svg-icon-section p {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10px;
+  color: white;
+}
+
+.Mobile-item-image-section {
+  border: 1px solid rgb(195, 192, 192);
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.Mobile-item-timer-section {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(238, 246, 251);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.Mobile-item-image-item {
+  width: 60%;
+  height: 120px;
+  margin: 10px auto;
+}
+
+.Mobile-timer-image {
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+}
+
+.mobile-item-timer {
+  font-size: 10px;
+  color: black;
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+.Mobile-item-title-section h2 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Mobile-item-weight-section p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+  width: 120px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+
+}
+
+.Mobile-item-price-add-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.Mobile-item-newamount {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.Mobile-item-oldamount {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+  margin-top: -5px;
+}
+
+.Mobile-add-amount-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1.5px solid green;
+  width: 75px;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: green;
+  font-weight: 700;
+  background-color:white;
+}
+.mobile-item-option{
+    position: absolute;
+    font-size: 10px;
+    background-color: white;
+    bottom: 0;
+    color:rgb(167, 167, 167);
+     padding: 0px 5px;
+}

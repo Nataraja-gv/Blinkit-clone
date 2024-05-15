@@ -9,7 +9,6 @@ const c8 ="https://tse2.mm.bing.net/th?id=OIP.D9___NVxL8avMEIAjHi-wwHaHa&pid=Api
 const c9 ="https://www.bigbasket.com/media/uploads/p/l/40209248_1-center-fresh-chewy-mints-spearmint-flavour-candy.jpg"
 const c10 ="https://www.bigbasket.com/media/uploads/p/l/40249735-2_1-center-fruit-liquid-filled-chewing-gum-pineapple-flavour-tennis-ball-shape.jpg"
 const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lemon-Mint-Candy-30g.jpg"
-// const c12 =""
 
 
 
@@ -27,7 +26,8 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:10
+        offer:10,
+        option:1,
 
     },
 
@@ -40,6 +40,8 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
+        option:0,
+
         offer:0
 
     },
@@ -53,7 +55,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -66,7 +70,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -79,7 +85,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -92,7 +100,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -104,7 +114,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -117,7 +129,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -129,7 +143,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -142,7 +158,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
 
@@ -155,7 +173,9 @@ const c11 ="https://www.degrocery.com/de-grocery/2021/08/Wrigleys-Doublemint-Lem
         Weight:"400 g",
         NewAmount:100,
         OldAmount:125,
-        offer:0
+        offer:0,
+        option:0,
+
 
     },
      

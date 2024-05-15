@@ -35,7 +35,9 @@ export const SnacksItemsDetails = [
     Weight: "100 g",
     NewAmount: 43,
     OldAmount: 50,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
 
@@ -47,7 +49,9 @@ export const SnacksItemsDetails = [
     Weight: "2 X 82.5 g",
     NewAmount: 80,
     OldAmount: 0,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -58,7 +62,9 @@ export const SnacksItemsDetails = [
     Weight: "1 kg",
     NewAmount: 225,
     OldAmount: 0,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -69,7 +75,9 @@ export const SnacksItemsDetails = [
     Weight: "200 g",
     NewAmount: 45,
     OldAmount: 50,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -80,7 +88,9 @@ export const SnacksItemsDetails = [
     Weight: "48 g",
     NewAmount: 20,
     OldAmount: 20,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -91,7 +101,9 @@ export const SnacksItemsDetails = [
     Weight: "35 g",
     NewAmount: 50,
     OldAmount: 53,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -102,7 +114,9 @@ export const SnacksItemsDetails = [
     Weight: "40 g",
     NewAmount: 20,
     OldAmount: 22,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -113,7 +127,9 @@ export const SnacksItemsDetails = [
     Weight: "40 g",
     NewAmount: 20,
     OldAmount: 22,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -124,7 +140,9 @@ export const SnacksItemsDetails = [
     Weight: "40 g",
     NewAmount: 20,
     OldAmount: 22,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -135,7 +153,9 @@ export const SnacksItemsDetails = [
     Weight: "200 g",
     NewAmount: 89,
     OldAmount: 90,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -146,7 +166,9 @@ export const SnacksItemsDetails = [
     Weight: "350 g",
     NewAmount: 75,
     OldAmount: 80,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
   {
@@ -157,7 +179,9 @@ export const SnacksItemsDetails = [
     Weight: "220 g",
     NewAmount: 40,
     OldAmount: 45,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
 
@@ -169,7 +193,9 @@ export const SnacksItemsDetails = [
     Weight: "40 g",
     NewAmount: 20,
     OldAmount: 22,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
 
@@ -181,7 +207,9 @@ export const SnacksItemsDetails = [
     Weight: "40 g",
     NewAmount: 10,
     OldAmount: 10,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
 
@@ -193,7 +221,9 @@ export const SnacksItemsDetails = [
     Weight: "40 g",
     NewAmount: 20,
     OldAmount: 22,
-    offer:0
+    offer:0,
+    option:0,
+
 
   },
 ];

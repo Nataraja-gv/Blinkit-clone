@@ -45,11 +45,15 @@
 
 }
 
+.mobile-menu-item-section{
+  display: none;
+}
+
 @media only screen and (min-width: 375px) and (max-width:600px)
 {
     .Menu-item-main-container{
         display:grid;
-        grid-template-columns: 60px auto;
+        grid-template-columns: 80px auto;
         
      
      }
@@ -61,9 +65,19 @@
     margin: 0px 0%;
   }
 
-  .Veg-menu-item-section {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+   .Veg-menu-item-section{
+    display: none;
+   }
+   .mobile-menu-item-section{
+    display: block;
+   }
+   .mobile-menu-item-section{
+    overflow: scroll;
+    height: 100vh;
+   }
+   .mobile-menu-item-section::-webkit-scrollbar{
+    display: none;
+}
 
     
 }
