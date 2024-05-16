@@ -23,11 +23,10 @@ const DailyItem = () => {
     // },
 
     desktop2: {
-      breakpoint: { max: 1150, min:1023  },
+      breakpoint: { max: 1250, min:1023  },
       items: 4.5,
       slidesToSlide: 3,
     },
-
     desktop3: {
       breakpoint: { max: 1400, min:1251},
       items: 5.5,
