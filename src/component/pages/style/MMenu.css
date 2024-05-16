@@ -52,9 +52,35 @@
   
   
 
-  .mobile-active-border{
-    border-right: 5px solid green;
-     border-radius: .5rem;
-     transition: all 0.2s ease-in-out;
-    
+  
+
+   .mobile-vegmenu-display-container{
+    display: grid;
+    grid-template-columns: auto 5px;
   }
+
+  .mobile-active-border {
+    position: relative;
+  }
+  
+  .mobile-active-border::before {
+    content: '';
+    position: absolute;
+    top: 15%;
+     right: 0; /* Adjust this value as needed */
+    width: 4px;
+    height: 80%;
+    background-color: green;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: height 5s ease-in-out;
+     
+  }
+  
+  .mobile-vegmenu-display-container:hover .mobile-active-border::before,
+  .mobile-vegmenu-display-container:focus .mobile-active-border::before {
+    height: 80%;
+    
+
+  }
+  

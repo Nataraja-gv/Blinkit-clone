@@ -1,52 +1,53 @@
 import React from "react";
-import timer from '../item/timer.png'
-import './Item2.css'
+import "./Item2.css";
+import timer from "../item/timer.png";
 
-const Item2 = () => {
+const Item2 = (props) => {
   return (
-    <div className="item2-main-comatiner">
-      <div className="item2-image-section">
-        <img src={props.Image} alt="" className="  item2-image-item2" />
+    <div className="Mobile2-item-container">
+      <div className="Mobile2-item-image-section">
+        <img src={props.Image} alt="" className=" Mobile2-item-image-item" />
       </div>
 
-      <div className="item2-timer-section">
-        <img src={timer} alt="" className="timer2-image" />
-        <p className="item2-timer">{props.Timer}</p>
+      <div className="Mobile2-item-timer-section">
+        <img src={timer} alt="" className="Mobile2-timer-image" />
+        <p className="mobile2-item-timer">{props.Timer}</p>
       </div>
 
-      <div className="item2-title-section">
+      <div className="Mobile2-item-title-section">
         <h2>{props.Title}</h2>
       </div>
 
-      <div className="item2-weight-section">
+      <div className="Mobile2-item-weight-section">
         <p>{props.Weight}</p>
       </div>
 
-      <div className="item2-price-add-section">
+      <div className="Mobile2-item-price-add-section">
         <ul>
-          <li className="item2-newamount">&#8377;{props.NewAmount}</li>
+          <li className="Mobile2-item-newamount">&#8377;{props.NewAmount}</li>
           {props.OldAmount === 0 ? (
             <></>
           ) : (
-            <li className="item2-oldamount">&#8377;{props.OldAmount}</li>
+            <li className="Mobile2-item-oldamount">&#8377;{props.OldAmount}</li>
           )}
         </ul>
 
         <button
-          className="add2-amount-btn"
+          className="Mobile2-add-amount-btn"
           onClick={() => {
             addToCart(props);
           }}
         >
-          Add
+          ADD
+           {props.option===0 ? <></>:<span className="mobile2-item-option">{props.option} options</span>}
         </button>
 
         {props.offer === 0 ? (
           <></>
         ) : (
-          <div className="svg2-icon-section">
+          <div className="mobile2-svg-icon-section">
             <svg
-              className="svg2-icon"
+              className="mobile2-svg-icon"
               width="35"
               height="40"
               viewBox="0 0 29 28"

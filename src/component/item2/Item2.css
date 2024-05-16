@@ -1,115 +1,135 @@
-.item2-main-comatiner {
-    border: 1px solid rgb(195, 192, 192);
-    width: 180px;
-    /* height: 300px; */
-    padding: 0 10px 10px 10px;
-    margin: 0px 20px 20px 0px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-  }
-  .svg2-icon-section{
-    position: absolute;
-    top:-3px;
-    left:22px;
-    align-items: center;
-    font-weight: bolder;
-    
-  }
-   
-  .svg2-icon-section p{
-    position: absolute;
-    top:5px;
-    left:8px;
-    font-size:10px;
-    color:white;
+.Mobile2-item-container {
+  /* border: 1px solid rgb(195, 192, 192); */
+  width: 130px;
+  /* padding: 0 5px 5px 5px; */
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.mobile2-svg-icon-section {
+  position: absolute;
+  top: -3px;
+  left: 15px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.mobile2-svg-icon-section p {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10px;
+  color: white;
+}
+
+.Mobile2-item-image-section {
+  border-radius: 15px;
+  margin-bottom: 5px;
   
-  }
+}
+
+.Mobile2-item-timer-section {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(238, 246, 251);
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-left: 7%;
   
-  .item2-image-section {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .item2-image-item {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 10px;
-     
-  }
-  
-  .item2-timer-section {
-    display: inline-flex;
-    align-items: center;
-    background-color: antiquewhite;
-    padding: 4px;
-    border-radius: 4px;
-  }
-  
-  .item2-timer {
-    font-size: 12px;
-    color: black;
-    font-weight: 500;
-  }
-  
-  .item2-title-section h2 {
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-top: -15px;
-    width: 200px;  
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .item2-weight-section p {
-    margin-top: 5px;
-    font-size: 14px;
-    color: gray;
-  }
-  
-  .item2-price-add-section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    align-items: center;
-  }
-  
-  .item2-newamount {
-    font-size: 14px;
-    font-weight: 500;
-    color: black;
-  }
-  
-  .item2-oldamount {
-    font-size: 14px;
-     
-    color: gray;
-    text-decoration: line-through;
-    margin-top: -5px;
-  }
-  
-  .add2-amount-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:5px;
-    border: 1px solid green;
-    width: 80px;
-    height: 30px;
-    font-size: 14px;
-    border-radius: 5px;
-    color: green;
-    font-weight: 700;
-    background-color: rgb(237, 250, 237);
-  }
-  
-  .timer2-image{
-    width: 15px;
-    height: 15px;
-  }
-  
+}
+
+.Mobile2-item-image-item {
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Mobile2-timer-image {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+}
+
+.mobile2-item-timer {
+  font-size: 10px;
+  color: black;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.Mobile2-item-title-section h2 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 7%;
+
+}
+
+.Mobile2-item-weight-section p {
+  margin-top: 2px;
+  font-size: 14px;
+  color: rgb(112, 111, 111);
+  width: 120px;
+  font-weight: 500;
+  margin-left: 7%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Mobile2-item-price-add-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  margin: 10px 7%;
+}
+
+.Mobile2-item-newamount {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.Mobile2-item-oldamount {
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+  text-decoration: line-through;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.Mobile2-add-amount-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1.5px solid green;
+  width: 65px;
+  height: 28px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: green;
+  font-weight: 700;
+  background-color: white;
+  margin-bottom: 10px;
+
+}
+.mobile2-item-option {
+  position: absolute;
+  font-size: 8px;
+  background-color: white;
+  bottom: 8px;
+  color: rgb(167, 167, 167);
+  padding: 0px 5px;
+}

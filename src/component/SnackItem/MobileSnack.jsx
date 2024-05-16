@@ -16,6 +16,9 @@ const MobileSnackItem = () => {
       items: 6.5,
       slidesToSlide: 3,
     },
+
+
+    
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,

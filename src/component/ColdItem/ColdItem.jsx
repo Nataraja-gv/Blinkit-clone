@@ -15,6 +15,17 @@ const ColdItem = () => {
       items: 6.5,
       slidesToSlide: 3,
     },
+    desktop2: {
+      breakpoint: { max: 1150, min:1023  },
+      items: 4.5,
+      slidesToSlide: 3,
+    },
+
+    desktop3: {
+      breakpoint: { max: 1400, min:1251},
+      items: 5.5,
+      slidesToSlide: 3,
+    },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,

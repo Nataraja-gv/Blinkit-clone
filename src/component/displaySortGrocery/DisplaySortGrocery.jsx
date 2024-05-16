@@ -6,6 +6,9 @@ import { ItemContent } from "../DataFolder/Context/Context";
 import Item from "../item/item.jsx";
 import { Link } from "react-router-dom";
 import MItem from "../pages/MItem.jsx"
+import Item2 from "../item2/Item2.jsx"
+
+
 const DisplaySortGrocery = () => {
   // const { GroceryData } = useContext(ItemContent);
   const { GroceryData, selectedCategory } = useContext(ItemContent);
@@ -57,7 +60,7 @@ const DisplaySortGrocery = () => {
         {GroceryData.map((item, index) => {
           return (
             <Link to={`/Product/${item.id}`}>
-              <MItem
+              <Item2
                 key={index}
                 Image={item.Image}
                 Timer={item.Timer}
