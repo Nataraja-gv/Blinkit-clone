@@ -117,8 +117,8 @@
   overflow: hidden;
   position: absolute;
   left: 50px;
-  top: 10px;
-  font-size: 18px;
+  top: 14px;
+  font-size: 14px;
 }
 .nav-vartical-line{
   border-left: 2px solid rgb(238, 238, 238);
@@ -134,7 +134,7 @@
 }
 
 .flip div:first-child {
-  animation: show 15s ease-in infinite;
+  animation: show 30s ease-in infinite;
 }
 
 @keyframes show {

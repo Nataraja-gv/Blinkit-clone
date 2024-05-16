@@ -9,6 +9,7 @@ import Item from "../item/item";
 import { Link } from "react-router-dom";
 import Mobileproductdetails from "../MobileProductsDetails/Mobileproductdetails.jsx";
 import MItem from "../pages/MItem.jsx"
+import Item2 from "../item2/Item2.jsx"
 const MobileProduct = ({ props }) => {
   const { addToCart, cart, GroceryData } = useContext(ItemContent);
 
@@ -141,7 +142,7 @@ const MobileProduct = ({ props }) => {
             {GroceryData.map((item, index) => {
               return (
                 <Link to={`/Product/${item.id}`}>
-                  <MItem
+                  <Item2
                     key={index}
                     Image={item.Image}
                     Timer={item.Timer}
