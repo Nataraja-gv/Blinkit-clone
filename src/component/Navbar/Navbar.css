@@ -228,7 +228,7 @@
 }
 /* mobile phone */
 
-@media only screen and (min-width: 375px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
   .navbar-main-container {
     display: block;
     height: 100%;
