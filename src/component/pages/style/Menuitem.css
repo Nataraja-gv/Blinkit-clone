@@ -44,7 +44,7 @@
   
 }
 
-@media only screen and (min-width: 375px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
   .Menuitem-main-container {
     display: block;
     align-items: center;

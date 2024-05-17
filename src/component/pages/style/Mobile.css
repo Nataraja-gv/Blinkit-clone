@@ -51,7 +51,7 @@
     z-index: 3;
   }
   
-  @media only screen and (min-width: 375px) and (max-width: 600px){
+  @media only screen and (min-width: 360px) and (max-width: 600px){
     .navbar-cart-bar-conatiner{
       display: block;
       z-index: 10;

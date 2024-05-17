@@ -17,7 +17,7 @@ const MobileProduct = ({ props }) => {
 
   const responsive = {
     mobile: {
-      breakpoint: { max: 600, min: 375 },
+      breakpoint: { max: 600, min: 360 },
       items: 1,
     },
   };
@@ -82,7 +82,7 @@ const MobileProduct = ({ props }) => {
       </div>
 
       <div className="mobile-product-timer">
-        <img src={timer} alt="" className="timer-image" />
+        <img src={timer} alt="" className="timer-image timer" />
         <p className="item-timer">{props.Timer}</p>
       </div>
 

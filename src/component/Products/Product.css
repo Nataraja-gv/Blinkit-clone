@@ -157,7 +157,7 @@
     display: none;
 } 
 
-@media only screen and (min-width: 375px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
     .Mobile-product-divide-section{
         display: block;
     } 

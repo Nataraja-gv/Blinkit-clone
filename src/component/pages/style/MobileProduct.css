@@ -1,4 +1,4 @@
-@media only screen and (min-width: 375px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
   .mobile-product-corousel {
     /* background-color: green; */
     width: 60%;
@@ -136,3 +136,12 @@
     margin-top: 10px;
   }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    .mobile-product-timer{
+      width: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+}
+

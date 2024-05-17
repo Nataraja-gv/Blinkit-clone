@@ -101,7 +101,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
   .Cart-main-container{
     z-index: 30;
     width: 100%;

@@ -1,79 +1,74 @@
-.item-title-section{
-    display: flex;
-    justify-content: space-between;
-margin-top: 20px;
-
+.item-title-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.item-title{
-font-size: 24px;
-font-weight: 700;
-color: rgb(28, 28, 28);
-line-height: 32px;
-margin-bottom: 10px;
-cursor: pointer;
- 
+.item-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(28, 28, 28);
+  line-height: 32px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
-.item-sellall{
-    font-size: 20px;
-    font-weight: 600;
-    color: rgb(12, 131, 31);
-    line-height: 32px;
-cursor: pointer;
-
-    
-
+.item-sellall {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(12, 131, 31);
+  line-height: 32px;
+  cursor: pointer;
 }
 
-.custom-arrow{
-    font-size: 25px;
-    background-color: rgb(148, 147, 147);
-    z-index: 1;
-    border: none;
-    outline: none;
-    padding: 5px;
-    border-radius: 50%;
-     
-
+.custom-arrow {
+  font-size: 25px;
+  background-color: rgb(148, 147, 147);
+  z-index: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 50%;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
 
-.product-details-title{
+.product-details-title {
   font-size: 14px;
   font-weight: 600;
-  color:rgb(31, 31, 31);
+  color: rgb(31, 31, 31);
   line-height: 18px;
-  margin:10px 0px
-
+  margin: 10px 0px;
 }
 
-.product-details-value{
-font-size: 14px;
+.product-details-value {
+  font-size: 14px;
   font-weight: 400;
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
   line-height: 18px;
   margin-right: 30px;
-  
 }
 
-  
-
-
-
-@media only screen and (min-width: 375px) and (max-width:600px){
-  .item-title{
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .item-title {
     font-size: 16px;
   }
 
-  .item-sellall{
+  .item-sellall {
     font-size: 14px;
-    
   }
-  .custom-arrow{
+  .custom-arrow {
     display: none;
   }
-  
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  .item-title {
+    font-size: 20px;
+  }
+
+  .item-sellall {
+    font-size: 18px;
+  }
 }
