@@ -25,9 +25,9 @@ const Productinfo = ({ props }) => {
       <ul  >
         <h1 className="productInfo-title">{props.Title}</h1>
       </ul>
-      <div className="item-timer-section bg-gray-300  mb-4" >
-        <img src={timer} alt="" style={{ width: "15px", height: "15px" }} />
-        <p className="item-timer" style={{ fontWeight: "700" }}>
+      <div className="product-item-timer-section bg-gray-300  mb-4" >
+        <img src={timer} alt="" style={{ width: "20px", height: "20px" }} />
+        <p className="product-item-timer" style={{ fontWeight: "700" }}>
           {props.Timer}
         </p>
       </div>
@@ -50,7 +50,7 @@ const Productinfo = ({ props }) => {
         <div>
         {/* //item.quantity */}
         {/* {!iscart ?  <button className="add-amount-btn" onClick={()=>{addToCart(props)}}>Add</button>:<button className="add-amount-btn" ><FiMinus onClick={()=>{removeFromCart(props)}}/> {props.quantity}<GoPlus onClick={()=>{addToCart(props)}}/></button>} */}
-        {!iscart ?  <button className="add-amount-btn" onClick={()=>{addToCart(props)}}>Add</button>:<button className="add-amount-btn" >GoCart</button>}
+        {!iscart ?  <button className="product-add-amount-btn" onClick={()=>{addToCart(props)}}>Add</button>:<button className="product-add-amount-btn" >GoCart</button>}
         
         </div>
       </div>

@@ -32,6 +32,16 @@
     
 }
 
+.product-item-timer-section{
+    display: inline-flex;
+    align-items: center;
+    padding:2px 5px;
+    border-radius: 5px;
+}
+.product-item-timer{
+    font-size: 16px;
+}
+
 .amount-section-productInfo{
     display: flex;
     align-items: center;
@@ -72,6 +82,24 @@
     color:rgb(153, 153, 153);
      
 }
+
+.product-add-amount-btn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1.5px solid green;
+  width: 65px;
+  height: 28px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: green;
+  font-weight: 700;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+
 
 .product_info-Offer{
     font-size: 12px;

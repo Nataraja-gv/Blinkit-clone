@@ -1,15 +1,17 @@
 .item-main-comatiner {
   border: 1px solid rgb(195, 192, 192);
-  width: 180px;
-  /* height: 300px; */
+  width: 90%;
+
   padding: 0 10px 10px 10px;
-  margin: 0px 20px 20px 0px;
   border-radius: 10px;
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
   z-index: 1;
   cursor: pointer;
+  margin-bottom: 10%;
+  margin-left: 5%
+   
 }
 .svg-icon-section {
   position: absolute;
@@ -33,7 +35,7 @@
 }
 
 .item-image-item {
-  width: 120px;
+  width:60%;
   height: 120px;
   margin-bottom: 10px;
 }
@@ -44,20 +46,29 @@
   background-color: antiquewhite;
   padding: 4px;
   border-radius: 4px;
+  width: 50%;
+  
+   
 }
 
+.timer-image {
+  width: 30%;
+  height: 15px;
+}
 .item-timer {
   font-size: 12px;
   color: black;
   font-weight: 500;
+  
+  
 }
 
 .item-title-section h2 {
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
-  margin-top: -15px;
-  width: 200px;
+  margin-top: -10%; 
+ width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -67,6 +78,10 @@
   margin-top: 5px;
   font-size: 14px;
   color: gray;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .item-price-add-section {
@@ -84,7 +99,6 @@
 
 .item-oldamount {
   font-size: 14px;
-
   color: gray;
   text-decoration: line-through;
   margin-top: -5px;
@@ -94,9 +108,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
   border: 1px solid green;
-  width: 80px;
+  width: 40%;
   height: 30px;
   font-size: 14px;
   border-radius: 5px;
@@ -105,10 +118,7 @@
   background-color: rgb(237, 250, 237);
 }
 
-.timer-image {
-  width: 15px;
-  height: 15px;
-}
+ 
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
   .item-main-comatiner {
@@ -165,3 +175,12 @@
     text-overflow: ellipsis;
   } */
 }
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1245px) {
+  .item-timer-section{
+    width: 80%;
+  }
+}
+

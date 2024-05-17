@@ -84,7 +84,7 @@ const Navbar = () => {
         >
           Account{" "}
         </h3>
-        <FaCaretDown />
+        <FaCaretDown  />
         {isProfile && (
           <div className="navbar-profile">
             <Profile className="navbar-profile" />

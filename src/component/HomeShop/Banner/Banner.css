@@ -7,8 +7,9 @@
     
 }
 .banner{
-    width: 350px;
-    height: 200px;
+    width: 33%; 
+    height: auto;
+   
 }
 
 @media only screen and (min-width: 375px) and (max-width:600px){

@@ -39,7 +39,7 @@
 
 .Menu-item-main-container{
    display:grid;
-   grid-template-columns: 230px auto;
+   grid-template-columns:20% auto;
     
    
 

@@ -11,13 +11,14 @@ const ColdItem = () => {
 
   const responsive = {
     desktop: {
-      breakpoint: { max: 2000, min: 1024 },
-      items: 6.5,
+      breakpoint: { max: 2000, min:1401  },
+      items:6.5,
       slidesToSlide: 3,
     },
+
     desktop2: {
       breakpoint: { max: 1250, min:1023  },
-      items: 4.5,
+      items: 5.5,
       slidesToSlide: 3,
     },
 
@@ -26,6 +27,7 @@ const ColdItem = () => {
       items: 5.5,
       slidesToSlide: 3,
     },
+    
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,

@@ -52,3 +52,16 @@
     line-height: 25px;
   }
 }
+
+@media only screen and (min-width: 1050px) and (max-width: 1350px) {
+  .Category-usefull-container ul li{
+    font-size: 14px;
+  }
+
+  .usefull-section{
+    gap:30px
+  }
+
+
+}
+

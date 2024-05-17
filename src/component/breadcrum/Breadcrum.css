@@ -1,31 +1,34 @@
 .Breadcrum-main-container {
-  display: flex;
   list-style: none;
-  justify-content: space-around;
-  /* background-color: red; */
   height: 50px;
   width: 85%;
   margin: auto;
-  align-items: center;
   background-color: white;
   position: sticky;
   top: 0;
   z-index: 2;
   cursor: pointer;
+  align-content: center;
+}
+
+.Breadcrum-main-container ul{
+  display:grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  justify-content: space-evenly;
+   
 }
 
 .Breadcrum-main-container li {
   font-size: 14px;
   font-weight: 400;
-  align-self: center;
   color: rgb(102, 102, 102);
-  padding: 11px;
-   
+  width: 100%;
+   padding: 14px 4px;
 }
 
-.Breadcrum-main-container li:hover {
-  background-color: rgb(248 250 252);
-  border-radius: 5px;
+.Breadcrum-main-container li:hover  {
+  background-color: rgb(240, 241, 241);
+  
    
 
 }
@@ -33,5 +36,11 @@
 @media only screen and (min-width: 375px) and (max-width:600px){
   .Breadcrum-main-container{
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width:1230px){
+  .Breadcrum-main-container li{
+    font-size: 12px;
   }
 }
