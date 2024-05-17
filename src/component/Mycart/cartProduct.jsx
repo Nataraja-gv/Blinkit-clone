@@ -34,7 +34,7 @@ const CartProduct = () => {
                   </ul>
 
                   <div className='cart-product-add-section'>
-                  <button className="add-amount-btn" ><FiMinus onClick={()=>{removeFromCart(item)}}/> {item.quantity} <GoPlus onClick={()=>{addToCart(item)}}/></button>
+                  <button className="cart-add-amount-btn" ><FiMinus onClick={()=>{removeFromCart(item)}}/> {item.quantity} <GoPlus onClick={()=>{addToCart(item)}}/></button>
                   </div>
                 </div>
            ) })}

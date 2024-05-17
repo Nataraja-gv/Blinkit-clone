@@ -38,6 +38,21 @@
     color:rgb(68, 67, 67);
 
 }
+.cart-add-amount-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1.5px solid green;
+    width: 65px;
+    height: 28px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: green;
+    font-weight: 700;
+    background-color: white;
+    margin-bottom: 10px;
+}
 
 .cart-product-section{
     display: flex;
