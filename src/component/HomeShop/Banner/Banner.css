@@ -2,12 +2,17 @@
     display: flex;
     gap:30px;
     justify-content: start;
-    width: 90%;
+    width: 100%;
     margin: 35px 0px 30px;
+    overflow-x: scroll;
     
 }
+
+.banner-container::-webkit-scrollbar{
+    display: none;
+}
 .banner{
-    width: 33%; 
+    width: 30%; 
     height: auto;
    
 }

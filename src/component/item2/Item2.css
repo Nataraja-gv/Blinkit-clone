@@ -1,6 +1,6 @@
 .Mobile2-item-container {
   /* border: 1px solid rgb(195, 192, 192); */
-  width: 130px;
+  width:95%;
   /* padding: 0 5px 5px 5px; */
   border-radius: 10px;
   background-color: white;
@@ -67,7 +67,7 @@
   font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
-  width: 120px;
+  width: 90%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

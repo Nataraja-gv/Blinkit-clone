@@ -1808,11 +1808,11 @@ export const GroceryData = [
     Title: "Dill Leaves (Soya)",
     Timer: "8 MINS",
     Image:
-    " https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/app/images/products/sliding_image/535900a.jpg?ts=1704266788",
+    " https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/app/images/products/sliding_image/536000a.jpg?ts=1704266788",
     Image2:
-    " https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/app/images/products/sliding_image/535900a.jpg?ts=1704266788",
+    " https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/app/images/products/sliding_image/536000a.jpg?ts=1704266788",
     Image3:
-       " https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/app/images/products/sliding_image/535900a.jpg?ts=1704266788",
+       " https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/app/images/products/sliding_image/536000a.jpg?ts=1704266788",
     Weight: " 100g",
     NewAmount: 15,
     OldAmount: 18,

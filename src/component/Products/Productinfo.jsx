@@ -12,7 +12,7 @@ const Productinfo = ({ props }) => {
   return (
     <div className="productinfo-main-container">
       <ul className="productInfo-breadcrum-container">
-        <li className="productInfo-breadcrum  hover:text-green-400">Home</li>
+        <li className="productInfo-breadcrum  hover : text-green-400">Home</li>
         <li className="productInfo-breadcrum">/</li>
         <li className="productInfo-breadcrum  hover:text-green-400">
           {" "}

@@ -4,7 +4,7 @@ import timer from "../item/timer.png";
 
 const MItem = (props) => {
   return (
-    <div className="Mobile-item-container">
+    <div className="Mobile-item-container  Mmobile-item-container">
       <div className="Mobile-item-image-section">
         <img src={props.Image} alt="" className=" Mobile-item-image-item" />
       </div>
@@ -39,7 +39,11 @@ const MItem = (props) => {
           }}
         >
           ADD
-           {props.option===0 ? <></>:<span className="mobile-item-option">{props.option} options</span>}
+          {props.option === 0 ? (
+            <></>
+          ) : (
+            <span className="mobile-item-option">{props.option} options</span>
+          )}
         </button>
 
         {props.offer === 0 ? (

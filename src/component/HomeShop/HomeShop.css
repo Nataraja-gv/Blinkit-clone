@@ -1,6 +1,7 @@
 .banner_image {
   width: 100%;
   margin: 20px 0px;
+  
 }
 
 .mobilecart-sticky-section {
@@ -8,16 +9,8 @@
   bottom: 0px;
 }
 
-.mobile-conatiner{
-    display: none;
-}
+ 
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
-  .desktop-container {
-    display: none;
-  }
-
-  .mobile-conatiner{
-    display: block;
-  }
+   
 }

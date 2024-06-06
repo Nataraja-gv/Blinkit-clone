@@ -6,21 +6,23 @@ import { SnacksItemsDetails } from "../Snacks.jsx";
 import { ColdDriksDetails } from "../Cold.jsx";
 import { GroceryData } from "../../GroceryData/GroceryData.jsx";
 import { vegMenuDetails } from "../../MenuItemDataFolder/VegMenu.jsx";
+import {typeCategory} from "../../pages/typescategory.jsx"
+import  {GroceryInfo} from "../../GroceryData/Groceryinfo"
 
 export const ItemContent = createContext();
 const ContextProvider = ({ children }) => {
   const [selectedCategory, setSelectedCategory] = useState("vegetables");
   const [filterSelectedCategory, setFilterSelectedCategory] =
-    useState(GroceryData);
+    useState(GroceryInfo);
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
     if (selectedCategory) {
       setFilterSelectedCategory(
-        GroceryData.filter((item) => item.category === selectedCategory)
+        GroceryInfo.filter((item) => item.category === selectedCategory)
       );
     } else {
-      setFilterSelectedCategory(GroceryData);
+      setFilterSelectedCategory(GroceryInfo);
     }
   }, [selectedCategory]);
 
@@ -100,13 +102,14 @@ const removeFromCart = (item) => {
     vegMenuDetails,
     GroceryData,
     Cands,
+    typeCategory,
     Daily_prodcts_details,
     Rolling,
     SnacksItemsDetails,
     ColdDriksDetails,
     selectedCategory,
     setSelectedCategory,
-    GroceryData: filterSelectedCategory,
+    GroceryInfo: filterSelectedCategory,
     addToCart,
     cart,
     total: calculateTotals.total,

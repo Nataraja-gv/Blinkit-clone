@@ -5,11 +5,11 @@ import "react-multi-carousel/lib/styles.css";
 import { PiShareFatThin } from "react-icons/pi";
 import timer from "../item/timer.png";
 import { ItemContent } from "../DataFolder/Context/Context";
-import Item from "../item/item";
+// import Item from "../item/item";
 import { Link } from "react-router-dom";
 import Mobileproductdetails from "../MobileProductsDetails/Mobileproductdetails.jsx";
-import MItem from "../pages/MItem.jsx"
-import Item2 from "../item2/Item2.jsx"
+// import MItem from "../pages/MItem.jsx";
+import Item2 from "../item2/Item2.jsx";
 const MobileProduct = ({ props }) => {
   const { addToCart, cart, GroceryData } = useContext(ItemContent);
 
@@ -26,19 +26,16 @@ const MobileProduct = ({ props }) => {
     mobile: {
       breakpoint: { max: 400, min: 360 },
       items: 2,
-     
     },
-     
 
-    mobiles:{
+    mobiles: {
       breakpoint: { max: 430, min: 401 },
       items: 2.5,
-    }
-,
-    mobiless:{
+    },
+    mobiless: {
       breakpoint: { max: 500, min: 431 },
       items: 2.5,
-    }
+    },
   };
 
   return (
@@ -137,7 +134,12 @@ const MobileProduct = ({ props }) => {
             dotListClass={"react-multi-carousel-dot-list custom-dot-list-style"}
             autoPlaySpeed={1000}
             itemClass="carousel-item-padding-40-px itemimage"
-            removeArrowOnDeviceType={["desktop", "mobile","mobiles","mobiless"]}
+            removeArrowOnDeviceType={[
+              "desktop",
+              "mobile",
+              "mobiles",
+              "mobiless",
+            ]}
           >
             {GroceryData.map((item, index) => {
               return (
@@ -162,22 +164,24 @@ const MobileProduct = ({ props }) => {
 
       <div className="">
         <Mobileproductdetails props={props} />
-         
       </div>
 
       <div className="mobile-say-frsh-container">
         <h3>Say Yes to fresh!</h3>
         <ul className="say-fresh-ul">
-          <ul >
+          <ul>
             <img
               src={
                 "https://cdn.grofers.com/app/images/category/cms_images/promises_icons/Sourced%20Fresh%20Daily%20(1).webp.crdownload"
               }
-             className="say-fresh-image"/>
+              className="say-fresh-image"
+            />
           </ul>
           <ul>
             <li className="say-fresh-header">Sourced Fresh Daily</li>
-            <li className="say-fresh-description">Our fruits and vegetables are sourced daily for optimal freshness.</li>
+            <li className="say-fresh-description">
+              Our fruits and vegetables are sourced daily for optimal freshness.
+            </li>
           </ul>
         </ul>
 
@@ -185,7 +189,7 @@ const MobileProduct = ({ props }) => {
           <ul>
             <img
               src={
-                 "https://cdn.grofers.com/app/images/category/cms_images/promises_icons/Sourced%20By%20Experts.webp.crdownload"
+                "https://cdn.grofers.com/app/images/category/cms_images/promises_icons/Sourced%20By%20Experts.webp.crdownload"
               }
               className="say-fresh-image"
             />
@@ -193,8 +197,10 @@ const MobileProduct = ({ props }) => {
           <ul>
             <li className="say-fresh-header">Sourced By Experts</li>
             <li className="say-fresh-description">
-Sourced By Experts
-Inhouse expert team selects the best fruit orchards, direct farms, importers, and certified organic/hydroponic vendors</li>
+              Sourced By Experts Inhouse expert team selects the best fruit
+              orchards, direct farms, importers, and certified
+              organic/hydroponic vendors
+            </li>
           </ul>
         </ul>
 
@@ -209,7 +215,10 @@ Inhouse expert team selects the best fruit orchards, direct farms, importers, an
           </ul>
           <ul>
             <li className="say-fresh-header">Daily Thorough Quality Checks</li>
-            <li className="say-fresh-description">Fresh produce undergoes daily quality checks before being sent to the stores.</li>
+            <li className="say-fresh-description">
+              Fresh produce undergoes daily quality checks before being sent to
+              the stores.
+            </li>
           </ul>
         </ul>
 
@@ -224,7 +233,10 @@ Inhouse expert team selects the best fruit orchards, direct farms, importers, an
           </ul>
           <ul>
             <li className="say-fresh-header">High Packaging Standards</li>
-            <li className="say-fresh-description">Produce is packed and stored safely with hygiene to ensure freshness.</li>
+            <li className="say-fresh-description">
+              Produce is packed and stored safely with hygiene to ensure
+              freshness.
+            </li>
           </ul>
         </ul>
 
@@ -238,9 +250,11 @@ Inhouse expert team selects the best fruit orchards, direct farms, importers, an
             />
           </ul>
           <ul>
-            <li className="say-fresh-header">
-Quality Assurance At Stores</li>
-            <li className="say-fresh-description">Continuous quality checks and daily audits at stores and during dispatch to the customers.</li>
+            <li className="say-fresh-header">Quality Assurance At Stores</li>
+            <li className="say-fresh-description">
+              Continuous quality checks and daily audits at stores and during
+              dispatch to the customers.
+            </li>
           </ul>
         </ul>
       </div>

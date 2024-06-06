@@ -1,14 +1,25 @@
 .groceryDisplay-main-container{
-    display: grid;
-    grid-template-columns: auto auto auto  auto auto auto auto auto auto auto ;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    /* background-color: red; */
+    /* border: 2px solid green; */
+     
+}
+.grocery-images-display{
+    width: 120px;
+    height: 140px;
+    /* border: 2px solid rgb(27, 191, 183); */
+     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    margin-bottom: 10px; */
      
 }
 @media only screen and (min-width: 360px) and (max-width:600px){
     .groceryDisplay-main-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto auto auto  auto ;
-    justify-content: space-between;
+    justify-content: space-between; */
      
 }
 }

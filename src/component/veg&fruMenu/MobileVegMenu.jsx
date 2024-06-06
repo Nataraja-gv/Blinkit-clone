@@ -12,11 +12,11 @@ const MobileVegMenu = () => {
   return (
     <div className="Mobile-veg-menu-container">
       {vegMenuDetails.map((item, index) => (
-        <div className="mobile-vegmenu-display-container">
+        <div className="mobile-vegmenu-display-container" onClick={window.scroll(0,0)}>
           <div
             key={index}
             // className={`mobile-vegmenu-display-container ${item.category === selectedCategory ? "mobile-active-border  " : ""}`}
-            onClick={() => setSelectedCategory(item.category)}
+            onClick={() => setSelectedCategory(item.category) }
           >
             <Link to={`/grocery`}>
               <div className="Mobile-Main-menu-conatiner">
