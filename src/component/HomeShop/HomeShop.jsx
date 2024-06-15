@@ -40,7 +40,7 @@ const HomeShop = () => {
 
       <div>
         <div className="desktop-container">
-          <CommonCard title="Rolling paper & tabacco" itemdata={Rolling} />
+          <CommonCard title="Rolling papers & tabacco" itemdata={Rolling} />
         </div>
       </div>
 
